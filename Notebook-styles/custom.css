@@ -1,10 +1,11 @@
-/*
-Placeholder for custom user CSS
+.CodeMirror{
+        font-family: "DejaVu Sans Mono";
+        font-size: 100%;
+}
 
-mainly to be overridden in profile/static/custom/custom.css
-
-This will always be an empty file in IPython
-*/
+div.cell { /* set cell width to about 80 chars */
+    width: 1300px;
+}
 
 .cm-s-ipython span.cm-keyword {color: teal; font-weight: bold;}
 
@@ -25,7 +26,7 @@ div.CodeMirror span.CodeMirror-matchingbracket {
 .cm-s-ipython span.cm-number { color: #DF5000; }
 
 .cm-s-ipython span.cm-variable{
-    color: #404040;
+    color: #404040; /* 2F4F4F */
 }
 
 .cm-s-ipython span.cm-def { color: olive; font-weight: bold; }
