@@ -3,11 +3,14 @@
         font-size: 100%;
 }
 
+.cm-s-ipython.CodeMirror {color: olive;}
+
 div.cell { /* set cell width to about 80 chars */
     width: 1300px;
 }
 
-.cm-s-ipython span.cm-keyword {color: teal; font-weight: bold;}
+.cm-s-ipython span.cm-keyword {color: #8F6B00; font-weight: bold;}
+.cm-s-ipython span.cm-variable-2 { color: teal; } /*#b58900 #4C72B0;*/
 
 .cm-s-ipython span.cm-operator {
     color: #C46792;
@@ -25,11 +28,11 @@ div.CodeMirror span.CodeMirror-matchingbracket {
 
 .cm-s-ipython span.cm-number { color: #DF5000; }
 
-.cm-s-ipython span.cm-variable{
-    color: #404040; /* 2F4F4F */
-}
+/*.cm-s-ipython span.cm-variable{
+    color: #404040;
+}*/  /* 2F4F4F */
 
-.cm-s-ipython span.cm-def { color: olive; font-weight: bold; }
+.cm-s-ipython span.cm-def { color: #0E84B5; font-weight: bold; }
 
 
 .cm-s-ipython span.cm-property { color: yellow; }
@@ -38,7 +41,7 @@ div.CodeMirror span.CodeMirror-matchingbracket {
 .cm-s-ipython span.cm-meta {
     color: red;
 }
-.cm-s-ipython span.cm-variable-2 { color: #4C72B0; } /*#b58900*/
+
 .cm-s-ipython span.cm-variable-3 { color: yellow; }
 .cm-s-ipython span.cm-attribute {  color: yellow; }
 
