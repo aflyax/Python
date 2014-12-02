@@ -35,7 +35,7 @@ div.CodeMirror span.CodeMirror-matchingbracket {
 .cm-s-ipython span.cm-atom { color: yellow; }
 .cm-s-ipython span.cm-qualifier { color: yellow; }
 .cm-s-ipython span.cm-meta {
-    color: #cb4b16;
+    color: red;
 }
 .cm-s-ipython span.cm-variable-2 { color: #4C72B0; } /*#b58900*/
 .cm-s-ipython span.cm-variable-3 { color: yellow; }
