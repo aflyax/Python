@@ -1,0 +1,48 @@
+/*
+Placeholder for custom user CSS
+
+mainly to be overridden in profile/static/custom/custom.css
+
+This will always be an empty file in IPython
+*/
+
+.cm-s-ipython span.cm-keyword {color: teal; font-weight: bold;}
+
+.cm-s-ipython span.cm-operator {
+    color: #C46792;
+    font-weight: bold;
+}
+
+.cm-s-ipython span.cm-string {color: #C12721; font-weight: normal;}
+
+
+.cm-s-ipython span.cm-comment {color: #75715e;}
+
+div.CodeMirror span.CodeMirror-matchingbracket {
+    color:teal;
+}
+
+.cm-s-ipython span.cm-number { color: #DF5000; }
+
+.cm-s-ipython span.cm-variable{
+    color: #404040;
+}
+
+.cm-s-ipython span.cm-def { color: olive; font-weight: bold; }
+
+
+.cm-s-ipython span.cm-property { color: yellow; }
+.cm-s-ipython span.cm-atom { color: yellow; }
+.cm-s-ipython span.cm-qualifier { color: yellow; }
+.cm-s-ipython span.cm-meta {
+    color: #cb4b16;
+}
+.cm-s-ipython span.cm-variable-2 { color: #4C72B0; } /*#b58900*/
+.cm-s-ipython span.cm-variable-3 { color: yellow; }
+.cm-s-ipython span.cm-attribute {  color: yellow; }
+
+
+
+.cm-s-ipython span.cm-property { color: yellow; }
+
+
